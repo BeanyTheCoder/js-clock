@@ -11,19 +11,23 @@ A simple analogue and digital clock made using vanilla JavaScript
 
 ## Installation & Usage 🛠️
 
-1. Clone the repository.
-2. Navigate to the project directory.
+1. Clone the repository using `git clone https://github.com/BeanyTheCoder/js-clock.git`.
+
+2. Navigate to the project directory using `cd js-clock`.
 3. Open the `index.html` file using any web browser of your choice.
 
 ## Screenshots 📷
 
 ### Analogue part
+
 ![analogue part](image-1.png)
 
 ### Digital part
+
 ![digital part](image-2.png)
 
 ### Full screen clock
+
 ![full screen image of the clock](image.png)
 
 ## Technologies Used 🛠️
