@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(60deg, #1bcc88, #2781d0, #b13fc5, #e0593b, #f2ba38);
+  background-size: 400%;
+  animation: background-anim alternate infinite 120s;
+}
+
+@keyframes background-anim {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border: #fafafa 15px solid;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px 5px #00000050 inset;
+}
+
+.hand {
+  width: 15px;
+  background-color: #fafafa;
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+  box-shadow: 3px 0 10px 0 #00000050;
+}
+
+#sec {
+  height: 45%;
+  top: 5%;
+  z-index: 1;
+}
+
+#min {
+  height: 35%;
+  top: 15%;
+  z-index: 0;
+}
+
+#hr {
+  height: 25%;
+  top: 25%;
+  z-index: -1;
+}
+
+#text {
+  font-size: 100px;
+  color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-shadow: 0 5px 10px #00000050;
+  width: 100%;
+}
+/* 
+.notch {
+  width: 15px;
+  height: 25px;
+  border-radius: 999px;
+  background-color: #fafafa;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.notch:first-child  {
+  transform: rotate(100deg);
+  transform-origin: 25px;
+} */
