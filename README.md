@@ -15,7 +15,7 @@ A simple analogue and digital clock made using vanilla JavaScript
 2. Navigate to the project directory.
 3. Open the `index.html` file using any web browser of your choice.
 
-## Screenshots (Optional) 📷
+## Screenshots 📷
 
 ### Analogue part
 ![analogue part](image-1.png)
@@ -35,7 +35,7 @@ A simple analogue and digital clock made using vanilla JavaScript
 
 This project is licensed under the [License Name](link-to-license-file).
 
-## Acknowledgments (Optional) 🙏
+## Acknowledgments 🙏
 
 Inpiration from the 2nd episode of Wes Bos' course, [JS30](https://javascript30.com/)
 
