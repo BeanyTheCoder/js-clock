@@ -5,7 +5,7 @@ A simple analogue and digital clock made using vanilla JavaScript
 ## Features ✨
 
 - Analogue clock feature, with gradual hand movement and a notchless display
-- 12-hour digital clock that goes form hours to minutes to seconds (00:00:00)
+- 12-hour digital clock that goes from hours to minutes to seconds (00:00:00)
 - Cool design inspired by Wes Bos' course, [JS30](https://javascript30.com/)
 - An animated gradient background that subtly _changes_ as time goes on
 
